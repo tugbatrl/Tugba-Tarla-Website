@@ -1,52 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tuğba Tarla</title>
+  <link rel="icon" href="src/images/favicon.png" type="image/png">
   <link rel="stylesheet" href="src/style.css"> 
 </head>
 <body class="bg-pink-200 text-gray-800">
-  <nav class="bg-pink-600 rounded-3xl m-4">
-  <ul class="flex justify-center space-x-20 p-4">
-    <li><a href="#about" class="hover:text-red-200"> About Me</a></li>
-    <li><a href="#projects" class="hover:text-red-200">Projects</a></li>
-    <li><a href="#skills" class="hover:text-red-200">Skills</a></li>
-    <li><a href="#contact" class="hover:text-red-200">Contact</a></li>
+  <nav class="bg-pink-600 rounded-3xl m-4 mb-0">
+  <ul class="flex justify-center space-x-10 p-4">
+    <li><a href="#about" class="hover:text-red-200 text-rose-50">♡ About Me</a></li>
+    <li><a href="#skills" class="hover:text-red-200 text-rose-50">♡ Skills</a></li>
+    <li><a href="#projects" class="hover:text-red-200 text-rose-50">♡ Projects</a></li>
+    <li><a href="#contact" class="hover:text-red-200 text-rose-50">♡ Contact</a></li>
   </ul>
  </nav>
 
 
 <!-- Main Content-->
  <div class="container mx-auto px-4 py-10">
-  <section id="about" class="mb-15 p-20 mx-8 bg-pink-100 rounded-3xl">
+  
+  <section id="about" class="mb-20  mt-1 p-7 text-sm lg:text-lg md:p-15 lg:p-20 mx-8 bg-pink-100 rounded-3xl lg:mb-20 lg:mr-30 lg:ml-30 scroll-mt-24">
     <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
-    <p class="text-center max-w-2xl mx-auto">Merhabalar! Ben Tuğba Tarla, Yıldırım Beyazıt Üniversitesi Yazılım Mühendisliği 2. sınıf öğrencisiyim. Yazılım yolculuğuma 2024 yılında başladım ve o günden bu yana kendi projelerimi geliştirerek kendimi sürekli ileriye taşıyorum. Kod yazmak benim için sadece bir uğraş değil, aynı zamanda tutkuyla bağlı olduğum bir alan. Gelecekte yapay zekâ üzerine uzmanlaşarak hem hayallerimi gerçekleştirmek hem de teknoloji dünyasına katkı sunmak istiyorum.</p>
+  
+    <div class="flex flex-col xl:flex-row items-center xl:items-start gap-15">
+      <p class="flex text-center max-w-md mx-auto  md:max-w-xl lg:max-w-2xl md:text-left leading-relaxed">Merhabalar! Ben Tuğba Tarla, 20 yaşındayım.Kayseride doğdum ve büyüdüm. Şuan  Ankara Yıldırım Beyazıt Üniversitesi Yazılım Mühendisliği 2. sınıf öğrencisiyim. Yazılım yolculuğuma 2024 yılında başladım ve o günden bu yana kendi projelerimi geliştirerek kendimi sürekli ileriye taşıyorum. Kod yazmak benim için sadece bir uğraş değil, aynı zamanda tutkuyla bağlı olduğum bir alan. Gelecekte yapay zekâ üzerine uzmanlaşarak hem hayallerimi gerçekleştirmek hem de teknoloji dünyasına katkı sunmak istiyorum.</p>
+      <div class="flex justify-center">
+        <div class="w-60 h-72 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition">
+          <img src="src/images/tugba-tarla-profil.jpg" class="w-full h-full object-cover scale-110" alt="">
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="skills" class="bg-rose-100 mb-15 p-20 mx-8 rounded-3xl">
+  <section id="skills" class="bg-pink-100 mb-15 p-7 lg:p-20 mx-8 rounded-3xl lg:text-lg lg:mb-20 lg:mr-30 lg:ml-30 scroll-mt-24">
     <h2 class="text-3xl font-bold mb-4 text-center">Skills</h2>
-    <ul class="flex flex-wrap justify-center gap-4">
-      <li class="bg-blue-100 px-4 py-2 rounded">HTML, CSS, JavaScript</li>
-      <li class="bg-blue-100 px-4 py-2 rounded">Python</li>
-      <li class="bg-blue-100 px-4 py-2 rounded">Responsive Tasarım</li>
-      <li class="bg-blue-100 px-4 py-2 rounded">UI/UX</li>
-    </ul>
+    <div class="flex flex-col xl:flex-row items-center gap-3">
+      <p class="text-center max-w-md mx-auto md:max-w-xl lg:max-w-xl md:text-left leading-relaxed">Yazılım yolculuğumda şu ana kadar C, C#, Python, HTML gibi dilleri öğrendim. Bu dilleri öğrenirken yazılım dillerinin temel mantığını da kavradım. Ayrıca Git Bash ile versiyon kontrolü yapabiliyorum. Şu an hala öğrenme ve pratik yapma aşamasındayım, yani yolun başındayım diyebilirim ama elimden gelenin en iyisini yapmak için uğraşıyorum. Her yeni şey öğrendiğimde kendimi daha motive hissediyorum.</p>
+
+
+
+
+      <div class="grid grid-cols-3 md:grid-cols-3 gap-4 items-center justify-items-center ">
+        <div class="flex flex-col items-center hover:scale-105 transition">
+          <img src="src/images/python-logo.png" alt="python-logo" class="h-10 ">
+          <span>Python</span>
+        </div>
+        <div class="flex flex-col items-center hover:scale-105 transition">
+          <img src="src/images/c-logo.png" alt="c" class="h-10">
+          <span>C</span>
+        </div>
+        <div class="flex flex-col items-center hover:scale-105 transition">
+          <img src="src/images/c-sharp-logo.png" alt="c#" class="h-10">
+          <span>C#</span>
+        </div>
+        <div class="flex flex-col items-center hover:scale-105 transition">
+          <img src="src/images/HTML-logo.png" alt="c" class="h-10">
+          <span>HTML 5</span>
+        </div>
+        <div class="flex flex-col items-center hover:scale-105 transition">
+          <img src="src/images/git-logo.png" alt="c" class="h-10">
+          <span>Git</span>
+        </div>
+        <div class="flex flex-col items-center hover:scale-105 transition">
+          <img src="src/images/gihub-logo.png" alt="c" class="h-10">
+          <span>Github</span>
+        </div>
+    </div>
+  </div>
+    
   </section>
 
-  <section id="projects" class="py-10b bg-gray-100 rounded-lg">
-    <h2>Projects</h2>
-    <div class="project-card">Kişisel Blog Sitesi</div>
-    <div class="project-card">Portföy Web Uygulaması</div>
-    <div class="project-card">Mini Oyun (JavaScript)</div>
+  <section id="projects" class="mb-20  mt-1 p-5 text-sm lg:text-lg md:p-15 lg:p-15 mx-8 bg-pink-100 rounded-3xl lg:mb-20 lg:mr-30 lg:ml-30 overflow-x-auto scroll-mt-24">
+    <h2 class="text-3xl font-bold mb-4 text-center">Projects</h2>
+    <div class="flex flex-col xl:flex-row gap-5 items-center  text-center px-auto p-4 xl:items-stretch xl:overflow-x-auto">
+
+      <div class="bg-rose-300 max-w-sm rounded-lg p-2 hover:scale-105 transition">
+        <h3 class="text-lg font-bold mb-4 text-center pt-2">Görev Yöneticisi</h3>
+        <p class="text-center max-w-md mx-auto md:max-w-xl lg:max-w-xl leading-relaxed mb-4 text-sm p-7">Python ile geliştirdiğim,komut satırı görev takip uygulaması. Görev ekleme, düzenleme, silme ve tamamlanmış olarak işaretleme gibi temel işlevleri ekledim ve tüm görevleri JSON formatında sakladım. Ayrıca opsiyonel kategoriler ile filtreleme seçeneği ekledim.</p>
+        <button id="task-manager-repo" class="bg-rose-100 h-auto w-auto border border-pink-700 hover:shadow-lg shadow-rose-50  rounded-xl mb-2 m-1 p-1 text-sm hover:scale-105 transition">Github Reposu</button>
+      </div>
+
+      <div class="bg-rose-300 max-w-sm rounded-lg p-2 hover:scale-105 transition">
+        <h3 class="text-lg font-bold mb-4 text-center pt-2">Hackhathon Duygu pusulası</h3>
+        <p class="text-center max-w-md mx-auto md:max-w-xl lg:max-w-xl leading-relaxed mb-4 text-sm">Takım arkadaşım ile geliştirdiğimiz bu projede öğrencilerin sosyal ve duygusal gelişimini öğretmenleri için takip etmeyi kolaylaştıran bir web uygulaması yaptık. öğrenciler günlük hayatta karşılaştıkları senaryolara hızlıca cevap verebiliyor, öğretmenler de sınıfın genel durumunu görebiliyor ve ihtiyaç olduğunda yönlendirme yapabiliyor. Arayüz kısmını geliştirdiğim için web tasarımı konusunda çok şey öğrendim.</p>
+        <button id="hackathon-repo" class="bg-rose-100 h-auto w-auto border border-pink-700 hover:shadow-lg shadow-rose-50  rounded-xl mb-2 m-1 p-1 text-sm hover:scale-105 transition">Github Reposu</button>
+
+        <button id="hackathon-link" class="bg-rose-100 h-auto w-auto border border-pink-700 hover:shadow-lg shadow-rose-50 rounded-xl m-1 p-1 text-sm hover:scale-105 transition">Proje Linki</button>
+      </div>
+
+      <div class="bg-rose-300 max-w-sm rounded-lg p-2 hover:scale-105 transition">
+        <h3 class="text-lg font-bold mb-4 text-center pt-2">Tuğba Tarla Website</h3>
+        <p class="text-center max-w-md mx-auto md:max-w-xl lg:max-w-xl leading-relaxed mb-4 text-sm p-5">Bu proje benim ilk kişisel web sitem. Burada HTML ve Tailwind CSS kullanarak frontend geliştirmeyi öğrendim ve temel seviyede JavaScript kullanımını deneyimledim. Ayrıca siteyi responsive olarak geliştirerek mobil uyumlu hale getirdim. Html ile öğrendiklerimi pratiğe dökme şansı buldum.</p>
+        <button id="tugba-tarla-repo" class="bg-rose-100 h-auto w-auto border border-pink-700 hover:shadow-lg shadow-rose-50  rounded-xl mb-2 m-1 p-1 text-sm hover:scale-105 transition">Github Reposu</button>
+
+        <button id="tugba-tarla-link" class="bg-rose-100 h-auto w-auto border border-pink-700 hover:shadow-lg shadow-rose-50  rounded-xl m-1 p-1 text-sm hover:scale-105 transition">Proje Linki</button>
+      </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Bana ulaşmak için:</p>
-    <a href="https://instagram.com" target="_blank">Instagram</a>
+  <section id="contact" class="mb-5  mt-1 p-7 text-sm lg:text-lg md:p-15 lg:p-20 mx-8 bg-pink-100 rounded-3xl lg:mb-20 lg:mr-30 lg:ml-30 scroll-mt-24">
+    <h2 class="text-3xl font-bold mb-4 text-center">Contact</h2>
+    <div class="grid grid-cols  items-center gap-4 xl:flex flex-row">
+
+      <p class="text-center max-w-md mx-auto md:max-w-xl lg:max-w-xl md:text-left leading-relaxed">Benimle projeler hakkında konuşmak, iş birliği yapmak veya sadece merhaba demek için sosyal medya hesaplarımdan bana ulaşabilirsinizzz 𐔌՞..՞𐦯</p>
+
+      <div class="flex flex-col md:grid-cols-3 gap-4 justify-items-center">
+
+        <div class="flex flex-row  gap-4 items-center">
+          <img src="src/images/gmail-logo.png" alt="gmail" class="h-10">
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdMXHMlRHQbnsmXdllNTHhfPLVshvmNNVwKGtKvcQPxrqNmKQKTTpVpVRdpbFrNpGrTrFhv" target="_blank" class="hover:shadow-lg shadow-pink-300 rounded-lg m-1 p-1 hover:scale-105 transition">tubatarla3883@gmail.com</a>
+        </div>
+
+        <div class="flex flex-row  gap-4 items-center">
+          <img src="src/images/gihub-logo.png" alt="github" class="h-10">
+          <a href="https://github.com/tugbatrl" target="_blank" class="hover:shadow-lg shadow-pink-300 rounded-lg m-1 p-1 hover:scale-105 transition">tugbatrl</a>
+        </div>
+
+        <div class="flex flex-row  gap-4 items-center">
+          <img src="src/images/linkedn-logo.png" alt="linkedin" class="h-10">
+          <a href="https://www.linkedin.com/in/tu%C4%9Fba-tarla-7a6539295/" target="_blank" class="hover:shadow-lg shadow-pink-300 rounded-lg m-1 p-1 hover:scale-105 transition">Tuğba Tarla</a>
+        </div>
+
+        <div class="flex flex-row  gap-4 items-center">
+          <img src="src/images/instagram-logo.png" alt="instagram" class="h-10">
+          <a href="https://www.instagram.com/tugbatrl/" target="_blank" class="hover:shadow-lg shadow-pink-300 rounded-lg m-1 p-1 hover:scale-105 transition">tugbatrl</a>
+        </div>
+      </div>
+    </div>
   </section>
  </div>
- <script src="src/main.js"></script>
+
+ <footer class="bg-pink-600 w-full h-full pb-8 mt-5 pt-5 xl:pt-7 text-rose-50 justify-items-center">
+
+    <div class="grid grid-rows-1 sm:grid-cols-3 gap-8 p-5 xl:p-10 justify-items-center text-left ">
+
+      <div class="flex flex-row md:grid-cols-4 gap-4 justify-items-center border-t  sm:border-t-0 sm:border-l border-pink-400">
+        <nav class="bg-pink-600">
+          <ul class="flex flex-col justify-start space-y-2 p-2 pb-1">
+            <li><a href="#about" class="hover:text-red-200">♡ About Me</a></li>
+            <li><a href="#skills" class="hover:text-red-200">♡ Skills</a></li>
+            <li><a href="#projects" class="hover:text-red-200">♡ Projects</a></li>
+            <li><a href="#contact" class="hover:text-red-200">♡ Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="flex flex-row gap-3  md:grid-cols-3 border-t sm:border-t-0 sm:border-l justify-items-center justify-start border-pink-400 items-center p-4 pb-1">
+        <div class="flex flex-row  gap-4 items-center">
+          <a href="https://www.linkedin.com/in/tu%C4%9Fba-tarla-7a6539295/"><img src="src/images/linkedn-logo-black.png" alt="linkedin" class="h-8"></a> 
+        </div>
+        <div class="flex flex-row  gap-4 items-center">
+          <a href="https://github.com/tugbatrl"><img src="src/images/gihub-logo.png" alt="github" class="h-8"></a> 
+        </div>
+        <div class="flex flex-row  gap-4 items-center">
+          <a href="https://www.instagram.com/tugbatrl/"><img src="src/images/instagram-logo-black.png" alt="instagram" class="h-8"></a> 
+        </div>
+      </div>
+      <div class="flex text-center text-sm py-4  md:border-l sm:border-t-0 sm:border-l border-t border-pink-400 p-4 justify-items-center items-center">
+        <p class="justify-items-center justify-start  text-center ">© 2025 Tuğba Tarla | All Rights Reserved | Bu site benim tarafımdan yapıldı ᯓ★</p>
+      </div>
+    </div>
+  </footer>
+<script type="module" src="src/main.js"></script>
 </body>
 </html>
