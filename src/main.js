@@ -20,5 +20,5 @@ document.getElementById("tugba-tarla-repo").addEventListener("click", function()
 });
 
 document.getElementById("tugba-tarla-link").addEventListener("click" , function() {
-  window.open("https://github.com/tugbatrl/Tugba-Tarla-Website" , "_blank");
+  window.open("https://tugbatrl.github.io/Tugba-Tarla-Website/" , "_blank");
 });
